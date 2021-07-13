@@ -1,3 +1,5 @@
+"""This program mainly uses the concept of functions and loops (for and while)"""
+
 print("""Hi, welcome to this version of Battleships!
 
 This is your map:
