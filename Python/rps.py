@@ -1,7 +1,9 @@
 import random
 import sys
 
-print("Welcome to the Rock, Paper, Scissors game! Enter rock, paper, or scissors to play. Enter q or Q to exit the game.\n-------------------------------------------------------------")
+print("Welcome to the Rock, Paper, Scissors game! Enter rock, "
+      "paper, or scissors to play. Enter q or Q to exit the game."
+      "\n-------------------------------------------------------------")
 
 options = ["rock", "paper", "scissors"]
 
@@ -34,7 +36,9 @@ def playGame(cmpOption, playerOption):
   print("\n***\nComputer chose " + cmpOption + " and you chose " + playerOption)
   if (cmpOption == playerOption):
     print("It's a draw!")
-  elif (cmpOption == "rock" and playerOption == "paper") or (cmpOption == "paper" and playerOption == "scissors") or (cmpOption == "scissors" and playerOption == "rock"):
+  elif (cmpOption == "rock" and playerOption == "paper") \
+    or (cmpOption == "paper" and playerOption == "scissors") \
+    or (cmpOption == "scissors" and playerOption == "rock"):
     print("You win")
   else:
     print("The computer wins!")
